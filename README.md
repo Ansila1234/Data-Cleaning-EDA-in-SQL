@@ -5,9 +5,9 @@ In this project, I cleaned and prepared a dataset on worldwide layoffs for explo
 ## About the Dataset
 The dataset contains 2,361 records of layoffs from 2020 to 2023 around the world for 1,628 distinct companies. The dataset has the following variables:
 
-Company: The name of the company where layoffs occurred
-Location: The location of the company (city/region)
-Industry: The industry to which the company belongs
++ Company: The name of the company where layoffs occurred
++ Location: The location of the company (city/region)
++Industry: The industry to which the company belongs
 Total Laid Off: The total number of employees laid off
 Percentage Laid Off: The percentage of the workforce laid off
 Date: The date when the layoffs were announced
