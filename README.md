@@ -20,7 +20,11 @@ The dataset contains 2,361 records of layoffs from 2020 to 2023 around the world
 ### 1. Create a Staging Table
 I created a staging table to work on the data while keeping the original table intact. This approach preserves data integrity and allows for better tracking of changes.
 The staging table was created with following query:
-![image](https://github.com/user-attachments/assets/654e6775-ed3f-44ad-8170-bb00beb4b43a)
+![image](https://github.com/user-attachments/assets/6b036fad-5127-4ef4-8d86-a0e836ea653f)
+The query output shows the top few rows from staging table:
+![WhatsApp Image 2024-09-10 at 9 40 41 PM](https://github.com/user-attachments/assets/f3515565-04f1-444c-971d-6f398c85c36a)
+
+
 
 
 
