@@ -14,11 +14,13 @@ The dataset contains 2,361 records of layoffs from 2020 to 2023 around the world
 + Stage: The stage of the company (e.g., startup, public)
 + Country: The country where the company is located
 + Funds Raised (Millions): The amount of funds raised by the company
-This dataset was scraped from Layoffs.fyi to enable the Kaggle community to analyze recent mass layoffs and discover useful insights and patterns.
+
 
 # Data Cleaning Process
 ### 1. Create a Staging Table
 I created a staging table to work on the data while keeping the original table intact. This approach preserves data integrity and allows for better tracking of changes.
+![stage new](https://github.com/user-attachments/assets/26a9b6ac-d45d-4ef3-9bf1-9f3398a733eb)
+
 
 ### 2. Find and Remove Duplicates
 To ensure data integrity, I identified and removed duplicate rows. This involved creating a column with row numbers partitioned by all columns and considering rows with row numbers greater than 1 as duplicates.
