@@ -19,7 +19,10 @@ The dataset contains 2,361 records of layoffs from 2020 to 2023 around the world
 # Data Cleaning Process
 ### 1. Create a Staging Table
 I created a staging table to work on the data while keeping the original table intact. This approach preserves data integrity and allows for better tracking of changes.
-![stage new](https://github.com/user-attachments/assets/26a9b6ac-d45d-4ef3-9bf1-9f3398a733eb)
+The staging table was created with following query:
+![image](https://github.com/user-attachments/assets/654e6775-ed3f-44ad-8170-bb00beb4b43a)
+
+
 
 
 ### 2. Find and Remove Duplicates
